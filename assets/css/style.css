@@ -4,8 +4,8 @@
 
 .nav{
     background-color:#1c0c13;
-    height: 50px;
-    font-size:x-large;
+    height: 80px;
+    font-size:40px;
     padding: 10px;
     color: #9CF2EA;
     border-radius: 5px;
@@ -46,8 +46,9 @@ h2{
 .box2{
     border: 2px solid #7f4ea8;
     background-color: #7f4ea8;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
     
 
 }
@@ -70,30 +71,6 @@ h2{
     border-radius: 5px;
 }
 
-.btn-projects{
-    border: 2px solid #7f4ea8;
-    background-color: #1c0c13;
-    border-radius: 10px;
-    color: #9CF2EA;
-}
-
-.btn-mas{
-    border: 2px solid #7f4ea8;
-    background-color: #1c0c13;
-    color: #9CF2EA;
-    border-radius: 10px;
-    
-}
-
-.box3{
-    border: 2px solid #7f4ea8;
-    background-color: #7f4ea8;
-    margin-bottom: 30px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    
-}
-
 video {
     position: fixed;
     right: 0;
@@ -102,4 +79,17 @@ video {
     min-height: 100%;
     transform: translateX(calc((100% - 100vw) / 2));
     z-index: -2;
+}
+
+footer{
+    background-color:#1c0c13;
+    height: 80px;
+    font-size:40px;
+    padding: 10px;
+    color: #9CF2EA;
+    border-radius: 5px;
+}
+
+.icon{
+    margin: 0 30px;
 }

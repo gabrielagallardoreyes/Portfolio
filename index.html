@@ -22,7 +22,8 @@
     </nav>
     <!--PRESENTACIÓN-->
     <div class="main-box container-fluid align-items-center">
-        <video src="assets/img/Plexus_Space.mp4" autoplay="true" muted="true" loop="true" poster="assets/img/Plexus_Space.mp4"></video>
+        <video src="assets/img/Plexus_Space.mp4" autoplay="true" muted="true" loop="true"
+            poster="assets/img/Plexus_Space.mp4"></video>
         <section class="box1 container  mx-auto ">
             <h1 class="text-center">Hey! I'm GabrielaGallardo;</h1>
             <div class="card mb-3 align-self-center mx-auto" style="max-width: 800px;">
@@ -41,72 +42,80 @@
                                 <li class="list-group-item flex-fill">Bootstrap</li>
                             </ul>
                             <ul class="list-group list-group-horizontal container">
-                                <li class="list-group-item flex-fill">JavaScript</li>
-                                <li class="list-group-item flex-fill">MySQL</li>
-                                <li class="list-group-item flex-fill">Python</li>
+                                <li class="list-group-item flex-fill container">JavaScript</li>
+                                <li class="list-group-item flex-fill container">MySQL</li>
+                                <li class="list-group-item flex-fill container">Python</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <button class="btn-contacto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
-                    aria-controls="offcanvasScrolling">
+                <button class="btn-contacto" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                     <i class="fa-solid fa-arrow-right fa-xl fa-fade"></i> Contact me :)!</button>
             </div>
         </section>
         <!--PROYECTOS-->
-        <section class="box2 mx-auto row container pt-5 pb-5">
-            <button class="btn-projects"><h2 class="text-center" >Projects;<i class="fa-regular fa-folder"></i></h2></button>
-            <div class="card projects1 text-center container mt-4" style="width: 18rem; display: none;" >
-                <img src="assets/img/img1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.
-                    </p>
-                    <a class="view" href="#">View</a>
-                    <a class="get-code" href="#">Get Code</a>
+        <section class="box2 container accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        About me;
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>English Teacher and Full Stack JavaScrip Student. I can describe myself as a motivated and disciplined person who loves challenges and learn new things! If you want to know more about myself do not hesitate to contact me!</p>
+                    </div>
                 </div>
             </div>
-            <div class="card projects1 text-center container mt-4" style="width: 18rem; display: none;" >
-                <img src="assets/img/img1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a class="view" href="#">View</a>
-                    <a class="get-code" href="#">Get Code</a>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Projects;
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body row justify-content-between">
+                        <div class="card container" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card container" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card container" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card projects1 text-center container mt-4" style="width: 18rem; display: none;">
-                <img src="assets/img/img1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a class="view" href="#">View</a>
-                    <a class="get-code" href="#">Get Code</a>
-                </div>
-            </div> 
-        <!--EXPERIENCIA-->
-            <button class="btn-mas mt-5" style="display: none;"><h2 class="text-center" >Experience;</h2></button>
-        </section>
-        <section class="box3 container mx-auto row justify-content-between pb-5" style="display: none;">
-            <div class="card projects2 text-center  container mt-4" style="width: 18rem;" >
-                <img src="assets/img/img1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-            <div class="card projects2 text-center container mt-4" style="width: 18rem;">
-                <img src="assets/img/img1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-            <div class="card projects2 text-center container mt-4" style="width: 18rem;">
-                <img src="assets/img/img1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Experience;
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                        exciting happening here in terms of content, but just filling up the space to make it look, at
+                        least at first glance, a bit more representative of how this would look in a real-world
+                        application.</div>
                 </div>
             </div>
         </section>
@@ -134,19 +143,23 @@
                     style="height: 100px" required></textarea>
             </div>
             <button class="btn-enviar mx-auto" style=" width: 40%;">Send</button>
+            <!--RED DE CONTACTO-->
         </div>
-        <!--RED DE CONTACTO-->
-        <div class="offcanvas-body container row text-center pt-5">
-            <i class="fa-solid fa-envelope fa-2xl"></i>
-            <p class="pt-2"><small>gabsgallardo@gmail.com</small></p>
-            <i class="fa-brands fa-linkedin fa-2xl pt-1"></i>
-            <p class="pt-2"><small>/gabrielagallardo</small></p>
-            <i class="fa-brands fa-github fa-2xl pt-1"></i>
-            <p class="pt-2"><small>/gabrielagallardoreyes</small></p>
-
-        </div>
-
+            <div class="offcanvas-body container row text-center pt-5 text-white">
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+                <p class="pt-2"><small>gabsgallardo@gmail.com</small></p>
+                <i class="fa-brands fa-linkedin fa-2xl pt-1"></i>
+                <p class="pt-2"><small>/gabrielagallardo</small></p>
+                <i class="fa-brands fa-github fa-2xl pt-1"></i>
+                <p class="pt-2"><small>/gabrielagallardoreyes</small></p>
+            </div>
     </form>
+    <footer class="container text-center">
+        <i class="fa-solid fa-envelope fa-xs icon"><a href="#"></a></i>
+        <i class="fa-brands fa-linkedin fa-xs icon"><a href="www.linkedin.com/in/gabrielagallardoreyes"></a></i>
+        <i class="fa-brands fa-github fa-xs icon"> <a href="https://github.com/gabrielagallardoreyes"></a></i>
+    </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
