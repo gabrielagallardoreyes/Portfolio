@@ -1,0 +1,105 @@
+*{
+    font-family: "Source Code Pro", monospace;
+}
+
+.nav{
+    background-color:#1c0c13;
+    height: 50px;
+    font-size:x-large;
+    padding: 10px;
+    color: #9CF2EA;
+    border-radius: 5px;
+
+
+}
+.main-box{
+    padding: 30px;
+
+}
+h1{
+    margin: 20px 20px;
+    color: #9CF2EA;
+    font-weight: bold;
+    
+}
+
+.box1{
+    border: 2px solid #7f4ea8;
+    background-color: #7f4ea8;
+    margin: 30px 0px;
+    border-radius: 10px;
+    
+    
+}
+
+.card{
+    background-color: #1c0c13;
+    color: #9c93e5;
+}
+
+h2{
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #9CF2EA;
+}
+
+.box2{
+    border: 2px solid #7f4ea8;
+    background-color: #7f4ea8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+
+}
+
+.offcanvas{
+    background-color: #1c0c13;
+}
+
+.btn-contacto{
+    border: 2px solid #7f4ea8;
+    background-color: #1c0c13;
+    color: #9c93e5;
+    border-radius: 5px;
+}
+
+.btn-enviar{
+    border: 2px solid #7f4ea8;
+    background-color: #1c0c13;
+    color: #9c93e5;
+    border-radius: 5px;
+}
+
+.btn-projects{
+    border: 2px solid #7f4ea8;
+    background-color: #1c0c13;
+    border-radius: 10px;
+    color: #9CF2EA;
+}
+
+.btn-mas{
+    border: 2px solid #7f4ea8;
+    background-color: #1c0c13;
+    color: #9CF2EA;
+    border-radius: 10px;
+    
+}
+
+.box3{
+    border: 2px solid #7f4ea8;
+    background-color: #7f4ea8;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
