@@ -94,7 +94,6 @@ footer{
 .f-iconos{
     margin: 0 30px;
     color: #9CF2EA;
-
 }
 
 .accordion-button{
@@ -108,12 +107,17 @@ footer{
 }
 
 .card-proyectos{
-    background-color: white;
+    background-color: #9c93e5 ;
     color: black;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 .nav-text{
     color: #9CF2EA;
     font-weight: bold;
+}
+
+img{
+    border: 2px solid black;
 }
