@@ -7,7 +7,7 @@ $(document).ready(function() {
       $(".offcanvas").hide()
     })
 
-    $(".fa-lightbulb").mouseenter(function(){
+    $(".fa-lightbulb").click(function(){
       $(".nav").css("background-color", "white")
       $(".nav-text").css("color", "black")
       $(".fa-lightbulb").css("color","black")
@@ -17,7 +17,7 @@ $(document).ready(function() {
       $(".main-box").css("background-color", "white")
       $("video").hide()
     })
-    $(".fa-lightbulb").click(function(){
+    $(".fa-lightbulb").dblclick(function(){
       $(".nav").css("background-color", "")
       $(".nav-text").css("color", "")
       $(".fa-lightbulb").css("color","")
