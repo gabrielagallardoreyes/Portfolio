@@ -17,5 +17,16 @@ $(document).ready(function() {
       $(".main-box").css("background-color", "white")
       $("video").hide()
     })
+    $(".fa-lightbulb").click(function(){
+      $(".nav").css("background-color", "")
+      $(".nav-text").css("color", "")
+      $(".fa-lightbulb").css("color","")
+      $("footer").css("background-color", "")
+      $("#links").css("color","")
+      $(".f-iconos").css("color","")
+      $(".main-box").css("background-color", "")
+      $("video").show()
+    })
+    
 
 })
